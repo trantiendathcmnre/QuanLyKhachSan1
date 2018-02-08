@@ -1,8 +1,11 @@
 html,body{
-	font-family: Monaco, MonoSpace,'Andale Mono','Ubuntu Mono';
+	font-family: MonoSpace,'Andale Mono','Ubuntu Mono';
 }
 .white{
 	background: #fff; 
+}
+.table-hover tbody tr:hover > td {
+  background-color: #DAE9FE;
 }
 #header{
 	background-image: url('../images/bgn.jpg');
@@ -65,14 +68,26 @@ html,body{
 	background-color: #6A8A9B;
 }
 #submenu{
-	height: 50px;
+	height: 35px;
+	padding: 0;
+}
+#submenu ul li a{
+	margin-right: 5px;
+	font-size: 13px;
+	font-family: Roboto;
+	color: #fff;
+	background: #DDE5EA;
+}
+#submenu ul li a.nav-link.active{
+	background-color: #A0CBE2;
+	color: #000;
 }
 #content{
-	margin: 15px;
-	padding-top: 5px;	
+	
 	background-color: #E2EBF0;
 	border: solid #CCCCCC 1px;
-	border-bottom: solid #999999 5px
+	border-bottom: solid #999999 5px;
+	width: 100%;
 }
 #content h5{
 	padding-top: 10px;
@@ -174,9 +189,70 @@ html,body{
 	text-align: center;
 }
 #phantrang ul li a{
-	padding-top: 3px;
 	padding-left: 10px;
+	padding-top: 3px;
 	font-size: 15px;
 	width: 30px;
 	height: 30px;
+}
+/*room*/
+#title{
+	
+	font-size: 15px;
+	font-family: MonoSpace;
+	border-bottom: solid #CCCCCC 1px;
+
+}
+#title a{
+	text-decoration: none;
+}
+#title a:hover{
+	color: #CCCCCC;
+}
+.floor{
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-right: 20px;
+	display: inline-block;
+	font-size: 15px;
+	font-family: Arial;
+}
+.floor #cn-floor{
+	color: #CCCCCC;
+	font-size: 12px;
+	margin-top: 10px;
+	margin-left: 5px;
+	display: block;
+}
+#tbphong{
+	font-size: 13px;
+	font-family: Arial;
+}
+#caidat{
+	line-height: 40px;
+	font-weight: bold;
+	font-size: 13px;
+	font-family: Arial;
+}
+#thaotac a{
+	margin-top: 15px;
+}
+#khunggia{
+	padding-top: 15px;
+	font-size: 13px;
+	font-family: Arial;
+}
+#khunggia #kg-body{
+	padding-bottom: 15px;
+}
+/*doanh thu*/
+#dthu{
+	padding-top: 5px;
+	padding-bottom: 15px;
+	font-family: Arial;
+	font-size: 13px;
+}
+#dthu a i{
+	
 }

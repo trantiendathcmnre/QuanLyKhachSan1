@@ -48,16 +48,16 @@
           <div class="col-md-auto mr-auto">
               <ul class="nav nav-tabs">
                 <li class="nav-item"><!--menu trang chu-->
-                  <a class="nav-link " href="#"><i class="fas fa-home" title="Trợ giúp"></i> TRANG CHỦ</a>
+                  <a class="nav-link " href="{{url('QLKS/index')}}"><i class="fas fa-home" title="Trợ giúp"></i> TRANG CHỦ</a>
                 </li>
                 <li class="nav-item"><!--menu quan ly phong-->
-                  <a class="nav-link" href="#"><i class="fas fa-book" title="Trợ giúp"></i> QUẢN LÝ PHÒNG</a>
+                  <a class="nav-link" href="{{url('QLKS/room')}}"><i class="fas fa-book" title="Trợ giúp"></i> QUẢN LÝ PHÒNG</a>
                 </li>
                 <li class="nav-item"><!--menu quan ly nhan vien-->
-                  <a class="nav-link" href="#"><i class="fas fa-user" title="Trợ giúp"></i> NHÂN VIÊN</a>
+                  <a class="nav-link" href="{{url('QLKS/staff')}}"><i class="fas fa-user" title="Trợ giúp"></i> NHÂN VIÊN</a>
                 </li>
                 <li class="nav-item"><!--menu thong ke-->
-                  <a class="nav-link" href="#"><i class="fas fa-chart-pie" title="Trợ giúp"></i> THỐNG KÊ</a>
+                  <a class="nav-link" href="{{url('QLKS/statistical')}}"><i class="fas fa-chart-pie" title="Trợ giúp"></i> THỐNG KÊ</a>
                 </li>
                 <li class="nav-item"><!--menu thong tin-->
                   <a class="nav-link" href="#"><i class="fas fa-info-circle" title="Thoát"></i> THÔNG TIN</a>
@@ -173,7 +173,7 @@
         </div>
         <!--Tong so phong , chu thich ki hieu-->
         <div class="row white">
-          <div class="col-md-10">
+          <div class="col-md-8">
             <div id="thaotac">
               <form class="form-inline">
                 <select class="form-control sl" name="">
@@ -186,8 +186,8 @@
               </form>
             </div>
           </div>
-          <div class="col-md-2 text-right align-items-center align-self-center mr-auto" style="font-size: 20px">
-            <a style="text-decoration: none" href="#" class=" fas fa-plus-circle" title="Thêm khách hàng"></a><!--Them khach hang-->
+          <div class="col-md-4 text-right align-items-center align-self-center mr-auto" style="font-size: 20px">
+            <a style="text-decoration: none" href="#" class="text-dark" title="Thêm khách hàng"><i class="fas fa-plus-circle"></i> Thêm khách hàng</a><!--Them khach hang-->
           </div>
         </div>
         <!--Danh sach phong va hien trang-->
@@ -323,9 +323,6 @@
               <li class="page-item"><a class="page-link rounded-circle" href="#">3</a></li>
               <li class="page-item"><a class="page-link rounded-circle" href="#">4</a></li>
               <li class="page-item"><a class="page-link rounded-circle" href="#">5</a></li>
-              <li class="page-item"><a class="page-link rounded-circle" href="#">6</a></li>
-              <li class="page-item"><a class="page-link rounded-circle" href="#">7</a></li>
-              <li class="page-item"><a class="page-link rounded-circle" href="#">8</a></li>
               <li class="page-item"><a class="page-link rounded-circle" href="#"><i class="fas fa-angle-right"></i></a></li>
             </ul>
           </div>
