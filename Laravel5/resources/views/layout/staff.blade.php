@@ -54,7 +54,7 @@
                   <a class="nav-link" href="{{url('QLKS/room')}}"><i class="fas fa-book" title="Trợ giúp"></i> QUẢN LÝ PHÒNG</a>
                 </li>
                 <li class="nav-item"><!--menu quan ly nhan vien-->
-                  <a class="nav-link" href="{{url('QLKS/staff')}}"><i class="fas fa-user" title="Trợ giúp"></i> NHÂN VIÊN</a>
+                  <a class="nav-link" style="color:black !important; background-color: #6A8A9B!important;" href="{{url('QLKS/staff')}}"><i class="fas fa-user" title="Trợ giúp"></i> NHÂN VIÊN</a>
                 </li>
                 <li class="nav-item"><!--menu thong ke-->
                   <a class="nav-link" href="{{url('QLKS/statistical')}}"><i class="fas fa-chart-pie" title="Trợ giúp"></i> THỐNG KÊ</a>
@@ -86,8 +86,12 @@
                 <a class="nav-link" data-toggle="pill" href="#menu3">Mức lương</a>
               </li>
             </ul>
-          <!-- Tab panes -->
-          <div class="tab-content">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Tab panes -->
+    <div class="tab-content">
             <!--quan ly nhan vien/ nhom nhan vien-->
             <div id="menu1" class="container-fluid tab-pane active"><br>
               <div id="content">
@@ -158,7 +162,6 @@
                 </div>
               </div>
             </div>
-
             <!--quan ly nhan vien/ nhan vien-->
             <div id="menu2" class="container-fluid tab-pane fade"><br>
               <div id="content">
@@ -379,15 +382,10 @@
                 </div>
               </div>
             </div>
-          </div>
-          </div>
-        </div>
-      </div>
     </div>
-    
-    <!--end content-->
+    <!--end tab panes-->
     <!--footer-->
-    <!-- <footer id="footer">
+    <footer id="footer">
       <div class="container-fluid">
         <div class="row align-items-end">
           <div class="col-md-6">
@@ -398,7 +396,7 @@
           </div>
         </div>
       </div>
-    </footer> -->
+    </footer>
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="333mm" xmlns="http://www.w3.org/2000/svg" height="161mm" version="1.1" viewBox="0 0 1259 610" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <a target="_parent" xlink:href="Full210.htm#28">
+      <polyline fill="none" points="367,186 367,193 245,193" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="377,172 367,199 358,172 377,172" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="362,199 373,199" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="258,198 258,187" stroke="#00aaaa" stroke-width="1"/>
+      <text x="367" y="188" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">thuoc</text>
+   </a>
+   <a target="_parent" xlink:href="Full212.htm#34">
+      <polyline fill="none" points="585,270 645,270" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="572,260 598,270 572,279 572,260" stroke="#00aaaa" stroke-width="1"/>
+      <ellipse cx="601" cy="269" rx="3" ry="3" fill="#ffffff" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="632,264 632,275" stroke="#00aaaa" stroke-width="1"/>
+      <text x="615" y="265" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">tiep_nhan</text>
+   </a>
+   <a target="_parent" xlink:href="Full202.htm#4">
+      <polyline fill="none" points="585,409 596,409 596,483 634,483" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="598,415 598,404" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="647,492 621,483 647,474 647,492" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="621,477 621,488" stroke="#00aaaa" stroke-width="1"/>
+      <text x="596" y="441" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">chi_tiet</text>
+   </a>
+   <a target="_parent" xlink:href="Full203.htm#7">
+      <polyline fill="none" points="859,463 859,402 987,402" stroke="#00aaaa" stroke-width="1"/>
+      <ellipse cx="859" cy="452" rx="3" ry="3" fill="#ffffff" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="1000,411 974,402 1000,393 1000,411" stroke="#00aaaa" stroke-width="1"/>
+      <ellipse cx="970" cy="401" rx="3" ry="3" fill="#ffffff" stroke="#00aaaa" stroke-width="1"/>
+      <text x="859" y="405" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">co_dv</text>
+   </a>
+   <a target="_parent" xlink:href="Full204.htm#10">
+      <polyline fill="none" points="132,226 132,272 133,272 133,313" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="142,213 132,239 123,213 142,213" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="127,239 138,239" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="139,300 128,300" stroke="#00aaaa" stroke-width="1"/>
+      <text x="132" y="274" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">co_gia</text>
+   </a>
+   <a target="_parent" xlink:href="Full207.htm#19">
+      <polyline fill="none" points="153,416 153,505" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="147,429 158,429" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="143,518 153,491 162,518 143,518" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="158,491 147,491" stroke="#00aaaa" stroke-width="1"/>
+      <text x="153" y="463" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">theo_kg</text>
+   </a>
+   <a target="_parent" xlink:href="Full211.htm#31">
+      <polyline fill="none" points="780,192 780,94" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="771,205 780,179 790,205 771,205" stroke="#00aaaa" stroke-width="1"/>
+      <ellipse cx="780" cy="175" rx="3" ry="3" fill="#ffffff" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="775,107 786,107" stroke="#00aaaa" stroke-width="1"/>
+      <text x="780" y="146" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">thuoc_bp</text>
+   </a>
+   <a target="_parent" xlink:href="Full213.htm#37">
+      <polyline fill="none" points="310,31 293,31 293,80 263,80" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="323,41 297,31 323,22 323,41" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="297,26 297,37" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="276,86 276,75" stroke="#00aaaa" stroke-width="1"/>
+      <text x="293" y="51" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">vi_tri</text>
+   </a>
+   <a target="_parent" xlink:href="Full208.htm#22">
+      <polyline fill="none" points="452,410 452,448" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="461,396 452,423 443,396 461,396" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="447,423 458,423" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="458,434 447,434" stroke="#00aaaa" stroke-width="1"/>
+      <text x="452" y="432" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">thue</text>
+   </a>
+   <a target="_parent" xlink:href="Full209.htm#25">
+      <polyline fill="none" points="439,229 439,209 520,209 520,186" stroke="#00aaaa" stroke-width="1"/>
+      <ellipse cx="439" cy="218" rx="3" ry="3" fill="#ffffff" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="529,172 520,199 510,172 529,172" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="514,199 525,199" stroke="#00aaaa" stroke-width="1"/>
+      <text x="479" y="212" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">thue_phong</text>
+   </a>
+   <a target="_parent" xlink:href="Full205.htm#13">
+      <polyline fill="none" points="931,219 963,219" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="918,209 944,219 918,228 918,209" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="944,224 944,213" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="950,213 950,224" stroke="#00aaaa" stroke-width="1"/>
+      <text x="946" y="214" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">co_luong</text>
+   </a>
+   <a target="_parent" xlink:href="Full206.htm#16">
+      <polyline fill="none" points="318,365 254,365" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="331,374 305,365 331,355 331,374" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="305,359 305,370" stroke="#00aaaa" stroke-width="1"/>
+      <polyline fill="none" points="267,370 267,359" stroke="#00aaaa" stroke-width="1"/>
+      <text x="285" y="360" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">gia_thue</text>
+   </a>
+   <a target="_parent" xlink:href="Full170.htm#285">
+      <defs>
+         <linearGradient id="Gradient1" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+            <stop offset="5%" stop-color="#ffffff"/>
+            <stop offset="95%" stop-color="#b0ffff"/>
+         </linearGradient>
+      </defs>
+      <rect x="310" y="18" fill="url(#Gradient1)" width="278" height="168" stroke="#00aaaa" stroke-width="1"/>
+      <text x="449" y="29" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">PHONG</text>
+      <line x1="310" x2="588" y1="35" y2="35" stroke="#00aaaa" stroke-width="1"/>
+      <text x="315" y="45" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">ID_PHG</text>
+      <text x="315" y="58" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">MA_PHG</text>
+      <text x="315" y="71" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">TEN_PHG</text>
+      <text x="315" y="84" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">TIENNGHI_PHG</text>
+      <text x="315" y="97" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">GHICHU_PHG</text>
+      <text x="315" y="110" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">SONGUOI_PHG</text>
+      <text x="315" y="123" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">SOGIUONG_PHG</text>
+      <text x="315" y="136" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">TRANGTHAI_PHG</text>
+      <text x="315" y="149" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">IDLOAI_PHG</text>
+      <text x="315" y="162" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">IDTANG_PHG</text>
+      <text x="411" y="45" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pi&gt;</text>
+      <text x="440" y="45" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">Serial</text>
+      <text x="440" y="58" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (10)</text>
+      <text x="440" y="71" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (50)</text>
+      <text x="440" y="84" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Long characters</text>
+      <text x="440" y="97" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Long characters</text>
+      <text x="440" y="110" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Integer</text>
+      <text x="440" y="123" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Integer</text>
+      <text x="440" y="136" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (10)</text>
+      <text x="440" y="149" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Integer</text>
+      <text x="440" y="162" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Integer</text>
+      <text x="559" y="45" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;M&gt;</text>
+      <text x="559" y="58" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="559" y="110" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="559" y="123" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="559" y="136" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="559" y="149" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="559" y="162" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <line x1="310" x2="588" y1="169" y2="169" stroke="#00aaaa" stroke-width="1"/>
+      <text x="315" y="179" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">ID_PHG</text>
+      <text x="361" y="179" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;pi&gt;</text>
+   </a>
+   <a target="_parent" xlink:href="Full134.htm#121">
+      <defs>
+         <linearGradient id="Gradient2" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+            <stop offset="5%" stop-color="#ffffff"/>
+            <stop offset="95%" stop-color="#b0ffff"/>
+         </linearGradient>
+      </defs>
+      <rect x="317" y="448" fill="url(#Gradient2)" width="270" height="142" stroke="#00aaaa" stroke-width="1"/>
+      <text x="452" y="459" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">KHACHHANG</text>
+      <line x1="317" x2="587" y1="465" y2="465" stroke="#00aaaa" stroke-width="1"/>
+      <text x="322" y="475" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">ID_KH</text>
+      <text x="322" y="488" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">MA_KH</text>
+      <text x="322" y="501" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">HOTEN_KH</text>
+      <text x="322" y="514" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">GIOITINH_KH</text>
+      <text x="322" y="527" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">NGAYSINH_KH</text>
+      <text x="322" y="540" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">CMND</text>
+      <text x="322" y="553" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">DIACHI_KH</text>
+      <text x="322" y="566" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">SDT_KH</text>
+      <text x="403" y="475" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pi&gt;</text>
+      <text x="432" y="475" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">Serial</text>
+      <text x="432" y="488" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (10)</text>
+      <text x="432" y="501" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (200)</text>
+      <text x="432" y="514" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (4)</text>
+      <text x="432" y="527" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Date &amp; Time</text>
+      <text x="432" y="540" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (12)</text>
+      <text x="432" y="553" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (200)</text>
+      <text x="432" y="566" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (11)</text>
+      <text x="557" y="475" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;M&gt;</text>
+      <text x="557" y="488" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="557" y="501" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="557" y="540" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <line x1="317" x2="587" y1="573" y2="573" stroke="#00aaaa" stroke-width="1"/>
+      <text x="322" y="583" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">ID_KH</text>
+      <text x="360" y="583" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;pi&gt;</text>
+   </a>
+   <a target="_parent" xlink:href="Full148.htm#185">
+      <defs>
+         <linearGradient id="Gradient3" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+            <stop offset="5%" stop-color="#ffffff"/>
+            <stop offset="95%" stop-color="#b0ffff"/>
+         </linearGradient>
+      </defs>
+      <rect x="16" y="149" fill="url(#Gradient3)" width="229" height="77" stroke="#00aaaa" stroke-width="1"/>
+      <text x="130" y="160" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">LOAIPHONG</text>
+      <line x1="16" x2="245" y1="166" y2="166" stroke="#00aaaa" stroke-width="1"/>
+      <text x="21" y="176" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">ID_LP</text>
+      <text x="21" y="189" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">MA_LP</text>
+      <text x="21" y="202" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">TEN_LP</text>
+      <text x="69" y="176" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pi&gt;</text>
+      <text x="98" y="176" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">Serial</text>
+      <text x="98" y="189" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (10)</text>
+      <text x="98" y="202" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (50)</text>
+      <text x="217" y="176" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;M&gt;</text>
+      <text x="217" y="189" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <line x1="16" x2="245" y1="209" y2="209" stroke="#00aaaa" stroke-width="1"/>
+      <text x="21" y="219" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">ID_LP</text>
+      <text x="58" y="219" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;pi&gt;</text>
+   </a>
+   <a target="_parent" xlink:href="Full109.htm#5">
+      <defs>
+         <linearGradient id="Gradient4" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+            <stop offset="5%" stop-color="#ffffff"/>
+            <stop offset="95%" stop-color="#b0ffff"/>
+         </linearGradient>
+      </defs>
+      <rect x="665" y="17" fill="url(#Gradient4)" width="230" height="77" stroke="#00aaaa" stroke-width="1"/>
+      <text x="780" y="28" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">BOPHAN</text>
+      <line x1="665" x2="895" y1="34" y2="34" stroke="#00aaaa" stroke-width="1"/>
+      <text x="670" y="44" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">ID_BP</text>
+      <text x="670" y="57" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">MA_BP</text>
+      <text x="670" y="70" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">TEN_BP</text>
+      <text x="719" y="44" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pi&gt;</text>
+      <text x="748" y="44" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">Serial</text>
+      <text x="748" y="57" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (10)</text>
+      <text x="748" y="70" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (50)</text>
+      <text x="867" y="44" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;M&gt;</text>
+      <text x="867" y="57" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <line x1="665" x2="895" y1="77" y2="77" stroke="#00aaaa" stroke-width="1"/>
+      <text x="670" y="87" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">ID_NV</text>
+      <text x="708" y="87" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;pi&gt;</text>
+   </a>
+   <a target="_parent" xlink:href="Full160.htm#241">
+      <defs>
+         <linearGradient id="Gradient5" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+            <stop offset="5%" stop-color="#ffffff"/>
+            <stop offset="95%" stop-color="#b0ffff"/>
+         </linearGradient>
+      </defs>
+      <rect x="645" y="192" fill="url(#Gradient5)" width="286" height="155" stroke="#00aaaa" stroke-width="1"/>
+      <text x="788" y="203" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">NHANVIEN</text>
+      <line x1="645" x2="931" y1="209" y2="209" stroke="#00aaaa" stroke-width="1"/>
+      <text x="650" y="219" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">ID_NV</text>
+      <text x="650" y="232" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">MA_NV</text>
+      <text x="650" y="245" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">HOTEN_NV</text>
+      <text x="650" y="258" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">DIENTHOAI_NV</text>
+      <text x="650" y="271" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">EMAIL_NV</text>
+      <text x="650" y="284" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">NGAYVAO_NV</text>
+      <text x="650" y="297" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">TRANGTHAI_NV</text>
+      <text x="650" y="310" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">IDNHOM_NV</text>
+      <text x="650" y="323" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">IDMUCLUONG_NV</text>
+      <text x="747" y="219" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pi&gt;</text>
+      <text x="776" y="219" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">Serial</text>
+      <text x="776" y="232" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (10)</text>
+      <text x="776" y="245" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (200)</text>
+      <text x="776" y="258" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (11)</text>
+      <text x="776" y="271" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (100)</text>
+      <text x="776" y="284" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Date &amp; Time</text>
+      <text x="776" y="297" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (20)</text>
+      <text x="776" y="310" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Integer</text>
+      <text x="776" y="323" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Integer</text>
+      <text x="901" y="219" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;M&gt;</text>
+      <text x="901" y="232" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="901" y="245" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="901" y="258" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="901" y="284" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="901" y="297" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="901" y="310" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="901" y="323" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <line x1="645" x2="931" y1="330" y2="330" stroke="#00aaaa" stroke-width="1"/>
+      <text x="650" y="340" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">ID_NV</text>
+      <text x="688" y="340" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;pi&gt;</text>
+   </a>
+   <a target="_parent" xlink:href="Full189.htm#371">
+      <defs>
+         <linearGradient id="Gradient6" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+            <stop offset="5%" stop-color="#ffffff"/>
+            <stop offset="95%" stop-color="#b0ffff"/>
+         </linearGradient>
+      </defs>
+      <rect x="318" y="229" fill="url(#Gradient6)" width="267" height="181" stroke="#00aaaa" stroke-width="1"/>
+      <text x="451" y="240" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">THUEPHONG</text>
+      <line x1="318" x2="585" y1="246" y2="246" stroke="#00aaaa" stroke-width="1"/>
+      <text x="323" y="256" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">ID_TP</text>
+      <text x="323" y="269" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">MA_TP</text>
+      <text x="323" y="282" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">IDNV_TP</text>
+      <text x="323" y="295" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">NGAYTHUE_TP</text>
+      <text x="323" y="308" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">NGAYTRA_TP</text>
+      <text x="323" y="321" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">TGLUUTRU</text>
+      <text x="323" y="334" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">TRATRUOC_TP</text>
+      <text x="323" y="347" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">IDCTHD_TP</text>
+      <text x="323" y="360" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">IDKH_TP</text>
+      <text x="323" y="373" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">IDPHG_TP</text>
+      <text x="323" y="386" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">IDGIA_TP</text>
+      <text x="408" y="256" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pi&gt;</text>
+      <text x="437" y="256" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">Serial</text>
+      <text x="437" y="269" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (10)</text>
+      <text x="437" y="282" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Integer</text>
+      <text x="437" y="295" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Date &amp; Time</text>
+      <text x="437" y="308" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Date &amp; Time</text>
+      <text x="437" y="321" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Integer</text>
+      <text x="437" y="334" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Money</text>
+      <text x="437" y="347" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Integer</text>
+      <text x="437" y="360" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Integer</text>
+      <text x="437" y="373" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Integer</text>
+      <text x="437" y="386" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Integer</text>
+      <text x="556" y="256" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;M&gt;</text>
+      <text x="556" y="269" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="556" y="282" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="556" y="295" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="556" y="308" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="556" y="321" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="556" y="347" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="556" y="360" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="556" y="373" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <line x1="318" x2="585" y1="393" y2="393" stroke="#00aaaa" stroke-width="1"/>
+      <text x="323" y="403" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">ID_TP</text>
+      <text x="361" y="403" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;pi&gt;</text>
+   </a>
+   <a target="_parent" xlink:href="Full113.htm#25">
+      <defs>
+         <linearGradient id="Gradient7" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+            <stop offset="5%" stop-color="#ffffff"/>
+            <stop offset="95%" stop-color="#b0ffff"/>
+         </linearGradient>
+      </defs>
+      <rect x="634" y="463" fill="url(#Gradient7)" width="300" height="129" stroke="#00aaaa" stroke-width="1"/>
+      <text x="784" y="474" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">CHITIETHOADON</text>
+      <line x1="634" x2="934" y1="480" y2="480" stroke="#00aaaa" stroke-width="1"/>
+      <text x="639" y="490" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">ID_CTHD</text>
+      <text x="639" y="503" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">MA_CTHD</text>
+      <text x="639" y="516" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">NGAYHD_CTHD</text>
+      <text x="639" y="529" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">KHOANKHAC_CTHD</text>
+      <text x="639" y="542" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">TONGTIEN_CTHD</text>
+      <text x="639" y="555" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">IDDV_CTHD</text>
+      <text x="639" y="568" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">IDTHUEPHONG_CTHD</text>
+      <text x="756" y="490" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pi&gt;</text>
+      <text x="785" y="490" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">Serial</text>
+      <text x="785" y="503" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (10)</text>
+      <text x="785" y="516" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Date &amp; Time</text>
+      <text x="785" y="529" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Money</text>
+      <text x="785" y="542" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Money</text>
+      <text x="785" y="555" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Integer</text>
+      <text x="785" y="568" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Integer</text>
+      <text x="904" y="490" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;M&gt;</text>
+      <text x="904" y="503" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="904" y="516" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="904" y="542" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="904" y="555" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="904" y="568" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <line x1="634" x2="934" y1="575" y2="575" stroke="#00aaaa" stroke-width="1"/>
+      <text x="639" y="585" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">ID_CTHD</text>
+      <text x="691" y="585" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;pi&gt;</text>
+   </a>
+   <a target="_parent" xlink:href="Full121.htm#61">
+      <defs>
+         <linearGradient id="Gradient8" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+            <stop offset="5%" stop-color="#ffffff"/>
+            <stop offset="95%" stop-color="#b0ffff"/>
+         </linearGradient>
+      </defs>
+      <rect x="987" y="347" fill="url(#Gradient8)" width="250" height="116" stroke="#00aaaa" stroke-width="1"/>
+      <text x="1112" y="358" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">DICHVU</text>
+      <line x1="987" x2="1237" y1="364" y2="364" stroke="#00aaaa" stroke-width="1"/>
+      <text x="992" y="374" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">ID_DV</text>
+      <text x="992" y="387" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">MA_DV</text>
+      <text x="992" y="400" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">TEN_DV</text>
+      <text x="992" y="413" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">DONVI_DV</text>
+      <text x="992" y="426" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">SL_DV</text>
+      <text x="992" y="439" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">DONGIA_DV</text>
+      <text x="1060" y="374" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pi&gt;</text>
+      <text x="1089" y="374" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">Serial</text>
+      <text x="1089" y="387" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (10)</text>
+      <text x="1089" y="400" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (50)</text>
+      <text x="1089" y="413" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (20)</text>
+      <text x="1089" y="426" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Integer</text>
+      <text x="1089" y="439" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Money</text>
+      <text x="1208" y="374" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;M&gt;</text>
+      <text x="1208" y="387" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="1208" y="413" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="1208" y="426" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="1208" y="439" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <line x1="987" x2="1237" y1="446" y2="446" stroke="#00aaaa" stroke-width="1"/>
+      <text x="992" y="456" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">ID_DV</text>
+      <text x="1030" y="456" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;pi&gt;</text>
+   </a>
+   <a target="_parent" xlink:href="Full128.htm#93">
+      <defs>
+         <linearGradient id="Gradient9" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+            <stop offset="5%" stop-color="#ffffff"/>
+            <stop offset="95%" stop-color="#b0ffff"/>
+         </linearGradient>
+      </defs>
+      <rect x="15" y="313" fill="url(#Gradient9)" width="239" height="103" stroke="#00aaaa" stroke-width="1"/>
+      <text x="134" y="324" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">GIA</text>
+      <line x1="15" x2="254" y1="330" y2="330" stroke="#00aaaa" stroke-width="1"/>
+      <text x="20" y="340" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">ID_GIA</text>
+      <text x="20" y="353" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">IDKG_GIA</text>
+      <text x="20" y="366" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">IDLG_GIA</text>
+      <text x="20" y="379" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">MA_GIA</text>
+      <text x="20" y="392" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">GIA</text>
+      <text x="77" y="340" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pi&gt;</text>
+      <text x="106" y="340" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">Serial</text>
+      <text x="106" y="353" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Integer</text>
+      <text x="106" y="366" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Integer</text>
+      <text x="106" y="379" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (10)</text>
+      <text x="106" y="392" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Money</text>
+      <text x="225" y="340" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;M&gt;</text>
+      <text x="225" y="353" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="225" y="366" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="225" y="392" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <line x1="15" x2="254" y1="399" y2="399" stroke="#00aaaa" stroke-width="1"/>
+      <text x="20" y="409" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">ID_GIA</text>
+      <text x="62" y="409" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;pi&gt;</text>
+   </a>
+   <a target="_parent" xlink:href="Full143.htm#161">
+      <defs>
+         <linearGradient id="Gradient10" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+            <stop offset="5%" stop-color="#ffffff"/>
+            <stop offset="95%" stop-color="#b0ffff"/>
+         </linearGradient>
+      </defs>
+      <rect x="20" y="505" fill="url(#Gradient10)" width="265" height="90" stroke="#00aaaa" stroke-width="1"/>
+      <text x="152" y="516" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">KHUNGGIO</text>
+      <line x1="20" x2="285" y1="522" y2="522" stroke="#00aaaa" stroke-width="1"/>
+      <text x="25" y="532" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">ID_KG</text>
+      <text x="25" y="545" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">MA_KG</text>
+      <text x="25" y="558" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">TEN_KG</text>
+      <text x="25" y="571" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">DIEUKIEN_KG</text>
+      <text x="102" y="532" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pi&gt;</text>
+      <text x="131" y="532" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">Serial</text>
+      <text x="131" y="545" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (10)</text>
+      <text x="131" y="558" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (50)</text>
+      <text x="131" y="571" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (100)</text>
+      <text x="256" y="532" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;M&gt;</text>
+      <text x="256" y="545" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="256" y="571" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <line x1="20" x2="285" y1="578" y2="578" stroke="#00aaaa" stroke-width="1"/>
+      <text x="25" y="588" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">ID_KG</text>
+      <text x="64" y="588" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;pi&gt;</text>
+   </a>
+   <a target="_parent" xlink:href="Full185.htm#351">
+      <defs>
+         <linearGradient id="Gradient11" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+            <stop offset="5%" stop-color="#ffffff"/>
+            <stop offset="95%" stop-color="#b0ffff"/>
+         </linearGradient>
+      </defs>
+      <rect x="17" y="17" fill="url(#Gradient11)" width="246" height="76" stroke="#00aaaa" stroke-width="1"/>
+      <text x="140" y="28" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">TANG</text>
+      <line x1="17" x2="263" y1="34" y2="34" stroke="#00aaaa" stroke-width="1"/>
+      <text x="22" y="44" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">ID_TANG</text>
+      <text x="22" y="56" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">MA_TANG</text>
+      <text x="22" y="69" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">TEN_TANG</text>
+      <text x="86" y="44" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pi&gt;</text>
+      <text x="115" y="44" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">Serial</text>
+      <text x="115" y="56" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (10)</text>
+      <text x="115" y="69" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (50)</text>
+      <text x="234" y="44" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;M&gt;</text>
+      <text x="234" y="56" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <line x1="17" x2="263" y1="76" y2="76" stroke="#00aaaa" stroke-width="1"/>
+      <text x="22" y="86" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">ID_TANG</text>
+      <text x="75" y="86" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;pi&gt;</text>
+   </a>
+   <a target="_parent" xlink:href="Full181.htm#333">
+      <defs>
+         <linearGradient id="Gradient12" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+            <stop offset="5%" stop-color="#ffffff"/>
+            <stop offset="95%" stop-color="#b0ffff"/>
+         </linearGradient>
+      </defs>
+      <rect x="988" y="514" fill="url(#Gradient12)" width="246" height="77" stroke="#00aaaa" stroke-width="1"/>
+      <text x="1111" y="525" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">TAIKHOAN</text>
+      <line x1="988" x2="1234" y1="531" y2="531" stroke="#00aaaa" stroke-width="1"/>
+      <text x="993" y="541" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">ID_TK</text>
+      <text x="993" y="554" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">TENDN</text>
+      <text x="993" y="567" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">MATKHAU</text>
+      <text x="1052" y="541" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pi&gt;</text>
+      <text x="1081" y="541" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">Serial</text>
+      <text x="1081" y="554" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (50)</text>
+      <text x="1081" y="567" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (100)</text>
+      <text x="1206" y="541" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;M&gt;</text>
+      <line x1="988" x2="1234" y1="574" y2="574" stroke="#00aaaa" stroke-width="1"/>
+      <text x="993" y="584" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">ID_TK</text>
+      <text x="1031" y="584" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;pi&gt;</text>
+   </a>
+   <a target="_parent" xlink:href="Full152.htm#205">
+      <defs>
+         <linearGradient id="Gradient13" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+            <stop offset="5%" stop-color="#ffffff"/>
+            <stop offset="95%" stop-color="#b0ffff"/>
+         </linearGradient>
+      </defs>
+      <rect x="963" y="154" fill="url(#Gradient13)" width="280" height="129" stroke="#00aaaa" stroke-width="1"/>
+      <text x="1103" y="165" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">MUCLUONG</text>
+      <line x1="963" x2="1243" y1="171" y2="171" stroke="#00aaaa" stroke-width="1"/>
+      <text x="968" y="181" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">ID_ML</text>
+      <text x="968" y="194" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">MA_ML</text>
+      <text x="968" y="207" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">LUONGCB_ML</text>
+      <text x="968" y="220" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">PHUCAP_ML</text>
+      <text x="968" y="233" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">TAMUNG_ML</text>
+      <text x="968" y="246" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">KHAUTRU_ML</text>
+      <text x="968" y="259" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">SONGAYNGHI_ML</text>
+      <text x="1066" y="181" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pi&gt;</text>
+      <text x="1095" y="181" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">Serial</text>
+      <text x="1095" y="194" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Variable characters (10)</text>
+      <text x="1095" y="207" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Money</text>
+      <text x="1095" y="220" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Money</text>
+      <text x="1095" y="233" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Money</text>
+      <text x="1095" y="246" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Money</text>
+      <text x="1095" y="259" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Integer</text>
+      <text x="1214" y="181" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;M&gt;</text>
+      <text x="1214" y="194" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <text x="1214" y="207" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;M&gt;</text>
+      <line x1="963" x2="1243" y1="266" y2="266" stroke="#00aaaa" stroke-width="1"/>
+      <text x="968" y="276" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">ID_ML</text>
+      <text x="1007" y="276" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;pi&gt;</text>
+   </a>
+</svg>

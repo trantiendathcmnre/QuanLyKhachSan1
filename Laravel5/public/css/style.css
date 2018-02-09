@@ -46,6 +46,9 @@ html,body{
   position: relative;
   z-index: 998;
 }
+.ac{
+	style="color:black !important; background-color: #6A8A9B!important;"
+}
 #menu{
 	color: #fff;
 }
@@ -66,10 +69,6 @@ html,body{
 #menu ul li a:hover{
 	color:black;
 	background-color: #6A8A9B;
-}
-#submenu{
-	height: 35px;
-	padding: 0;
 }
 #submenu ul li a{
 	margin-right: 5px;
@@ -187,6 +186,7 @@ html,body{
 #footer{
 	margin-bottom: 20px;
 	text-align: center;
+
 }
 #phantrang ul li a{
 	padding-left: 10px;

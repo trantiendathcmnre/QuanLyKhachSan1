@@ -18,7 +18,7 @@
     
   </head>
   <body>
-    <!--Logo khách sạn và menu ngang-->
+    <!--header Logo khách sạn và menu ngang-->
     <header id="header">
       <div class="container-fluid">
         <div class="row align-items-center">
@@ -41,8 +41,10 @@
           </div>
         </div>
       </div>
-    </header><!-- /header -->
-    <div id="menu"><!--menu ngang-->
+    </header>
+    <!--/header -->
+    <!--menu ngang-->
+    <div id="menu">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-auto mr-auto">
@@ -57,7 +59,7 @@
                   <a class="nav-link" href="{{url('QLKS/staff')}}"><i class="fas fa-user" title="Trợ giúp"></i> NHÂN VIÊN</a>
                 </li>
                 <li class="nav-item"><!--menu thong ke-->
-                  <a class="nav-link" href="{{url('QLKS/statistical')}}"><i class="fas fa-chart-pie" title="Trợ giúp"></i> THỐNG KÊ</a>
+                  <a class="nav-link" style="color:black !important; background-color: #6A8A9B!important;" href="{{url('QLKS/statistical')}}"><i class="fas fa-chart-pie" title="Trợ giúp"></i> THỐNG KÊ</a>
                 </li>
                 <li class="nav-item"><!--menu thong tin-->
                   <a class="nav-link" href="{{url('QLKS/index')}}"><i class="fas fa-info-circle" title="Thoát"></i> THÔNG TIN</a>
@@ -68,7 +70,8 @@
           </div>
         </div>
       </div>
-    </div><!--end menu ngang-->
+    </div>
+    <!--end menu ngang-->
     <!--Menu con-->
     <div id="submenu">
       <div class="container-fluid">
@@ -89,10 +92,16 @@
                 <a class="nav-link" data-toggle="pill" href="#menu4">Hiện trạng phòng</a>
               </li>
             </ul>
-          <!-- Tab panes -->
-          <div class="tab-content">
-            <!--thong ke/ doanh thu-->
-            <div id="menu1" class="container-fluid tab-pane active"><br>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end menu con-->
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <!--thong ke/ doanh thu-->
+      <div id="menu1" class="container-fluid tab-pane active"><br>
               <div id="content">
                 <div class="container-fluid">
                   <div class="row borderbt"><!--quan li doanh thu khach san-->
@@ -192,10 +201,9 @@
                   </div>
                 </div>
               </div>
-            </div>
-
-            <!--quan ly nhan vien/ nhan vien-->
-            <div id="menu2" class="container-fluid tab-pane fade"><br>
+      </div>
+      <!--quan ly nhan vien/ nhan vien-->
+      <div id="menu2" class="container-fluid tab-pane fade"><br>
               <div id="content">
                 <div class="container-fluid">
                   <div class="row borderbt"><!--quan li nhan vien-->
@@ -283,9 +291,9 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <!--quan ly nhan vien/ muc luong-->
-            <div id="menu3" class="container-fluid tab-pane fade"><br>
+      </div>
+      <!--quan ly nhan vien/ muc luong-->
+      <div id="menu3" class="container-fluid tab-pane fade"><br>
               <div id="content">
                 <div class="container-fluid">
                   <div class="row borderbt"><!--quan li luong nhan vien-->
@@ -413,16 +421,11 @@
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          </div>
-        </div>
       </div>
     </div>
-    
     <!--end content-->
     <!--footer-->
-    <!-- <footer id="footer">
+    <footer id="footer">
       <div class="container-fluid">
         <div class="row align-items-end">
           <div class="col-md-6">
@@ -433,8 +436,8 @@
           </div>
         </div>
       </div>
-    </footer> -->
-    
+    </footer>
+    <!--end footer-->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="{{asset('js/jquery-3.3.1.min.js')}}"></script>

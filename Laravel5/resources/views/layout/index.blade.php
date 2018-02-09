@@ -48,7 +48,7 @@
           <div class="col-md-auto mr-auto">
               <ul class="nav nav-tabs">
                 <li class="nav-item"><!--menu trang chu-->
-                  <a class="nav-link " href="{{url('QLKS/index')}}"><i class="fas fa-home" title="Trợ giúp"></i> TRANG CHỦ</a>
+                  <a class="nav-link" style="color:black !important; background-color: #6A8A9B!important;" href="{{url('QLKS/index')}}"><i class="fas fa-home" title="Trợ giúp"></i> TRANG CHỦ</a>
                 </li>
                 <li class="nav-item"><!--menu quan ly phong-->
                   <a class="nav-link" href="{{url('QLKS/room')}}"><i class="fas fa-book" title="Trợ giúp"></i> QUẢN LÝ PHÒNG</a>
@@ -118,7 +118,7 @@
             <div class="room rbooked rnotready">104</div>
             <div class="room rbooked rnotready">105</div>
             <div class="room rnotready">106</div>
-            <div class="room  rnotready">107</div>
+            <div class="room rnotready">107</div>
             <div class="room rmaintenance rnotready">108</div>
             <div class="room rbooked rnotready">109</div>
             <div class="room rbooked rnotready">110</div>

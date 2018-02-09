@@ -51,7 +51,7 @@
                   <a class="nav-link " href="{{url('QLKS/index')}}"><i class="fas fa-home" title="Trợ giúp"></i> TRANG CHỦ</a>
                 </li>
                 <li class="nav-item"><!--menu quan ly phong-->
-                  <a class="nav-link" href="{{url('QLKS/room')}}"><i class="fas fa-book" title="Trợ giúp"></i> QUẢN LÝ PHÒNG</a>
+                  <a class="nav-link" style="color:black !important; background-color: #6A8A9B!important;" href="{{url('QLKS/room')}}"><i class="fas fa-book" title="Trợ giúp"></i> QUẢN LÝ PHÒNG</a>
                 </li>
                 <li class="nav-item"><!--menu quan ly nhan vien-->
                   <a class="nav-link" href="{{url('QLKS/staff')}}"><i class="fas fa-user" title="Trợ giúp"></i> NHÂN VIÊN</a>
@@ -87,9 +87,14 @@
               </li>
             </ul>
           <!-- Tab panes -->
-          <div class="tab-content">
-            <!--quan ly phong/ thong tin phong-->
-            <div id="menu1" class="container-fluid tab-pane active"><br>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-content">
+      <!--quan ly phong/ thong tin phong-->
+      <div id="menu1" class="container-fluid tab-pane active"><br>
               <div id="content">
                 <div class="container-fluid">
                   <div class="row borderbt"><!--Phan loai phong-->
@@ -314,10 +319,9 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <!--quan ly phong/ thong tin phong-->
-            <!--quan ly phong/ gia phong-->
-            <div id="menu2" class="container-fluid tab-pane fade"><br>
+      </div><!--/quan ly phong/ thong tin phong-->
+      <!--quan ly phong/ gia phong-->
+      <div id="menu2" class="container-fluid tab-pane fade"><br>
               <div id="content">
                 <div class="container-fluid">
                   <div class="row borderbt"><!--Phan loai phong-->
@@ -437,10 +441,9 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <!--quan ly phong/ gia phong-->
-            <!--quan ly phong/ cai dat gia-->
-            <div id="menu3" class="container-fluid tab-pane fade"><br>
+      </div><!--/quan ly phong/ gia phong-->
+      <!--quan ly phong/ cai dat gia-->
+      <div id="menu3" class="container-fluid tab-pane fade"><br>
               <div id="content">
                 <div class="container-fluid">
                   <div class="row borderbt"><!--Danh sach phong de cai dat gia-->
@@ -1040,17 +1043,11 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <!--quan ly phong/ cai dat gia-->
-          </div>
-          </div>
-        </div>
-      </div>
+      </div><!--quan ly phong/ cai dat gia-->
     </div>
-    
     <!--end content-->
     <!--footer-->
-    <!-- <footer id="footer">
+    <footer id="footer">
       <div class="container-fluid">
         <div class="row align-items-end">
           <div class="col-md-6">
@@ -1061,7 +1058,7 @@
           </div>
         </div>
       </div>
-    </footer> -->
+    </footer>
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

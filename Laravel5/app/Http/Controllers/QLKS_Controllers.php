@@ -6,24 +6,26 @@ use Illuminate\Http\Request;
 
 class QLKS_Controllers extends Controller
 {
-    public function dieuhuong($id){
-    	// if($id == "index")
-    	// {
-    	// 	return view('layout.index');
-    	// }
+	//quan ly khach san
+    public function dieuhuong($id)
+    {
     	switch ($id) {
     		case 'room':
-    			return view('layout.room');
+    			return view('layout.room');//quan ly phong
     			break;
     		case 'staff':
-    			return view('layout.staff');
+    			return view('layout.staff');//quan ly nhan vien
     			break;
     		case 'statistical':
-    			return view('layout.statistical');
+    			return view('layout.statistical');//thong ke 
     			break;
     		default:
-    			return view('layout.index');
+    			return view('layout.index');//trang chu
     			break;
     	}
+    }
+    public function test()
+    {
+    	return view('layout.main');
     }
 }
