@@ -18,29 +18,16 @@ Route::get('/', function () {
 Route::get('test/{ten}','MyController@dk');
 //trang chu quan ly khach san 307
 Route::get('QLKS/{id}','QLKS_Controllers@dieuhuong');
-//test blade template
-Route::get('test', 'QLKS_Controllers@test');
-
-Route::get('database', function() {
-	Schema::create('loaisanpham', function ($table) {
-	    $table->increments('id');
-	    $table->string('ten',200);
-	});
-
-	// Schema::create('theloai', function ($table) {
-	//     $table->increments('id');
-	//     $table->string('ten',200)->nullable();
-	//     $table->string('nsx')->default('Nha san xuat');
-	// });
+//query builder
+Route::get('qb', function() {
+    $data = DB::table('giaphong')->avg('giaGP');
+    echo $data;
+    //var_dump($data);
+    // foreach ($data as $row) {
+    // 	foreach ($row as $key => $value) {
+    // 		echo $key.":".$value."<br>";
+    // 	}
+    // 	echo "<hr>";
+    // }
 });
 
-Route::get('lienket', function() {
-    Schema::create('sanpham', function ($table) {
-        $table->increments('id');
-        $table->string('ten');
-        $table->float('gia');
-        $table->integer('soluong')->default(0);
-        $table->integer('id_loaisp')->unsigned();
-        $table->foreign('id_loaisp')->references('id')->on('loaisanpham');
-    });
-});

@@ -11,21 +11,18 @@ class QLKS_Controllers extends Controller
     {
     	switch ($id) {
     		case 'room':
-    			return view('layout.room');//quan ly phong
+    			return view('pages.room');//quan ly phong
     			break;
     		case 'staff':
-    			return view('layout.staff');//quan ly nhan vien
+    			return view('pages.staff');//quan ly nhan vien
     			break;
     		case 'statistical':
-    			return view('layout.statistical');//thong ke 
+    			return view('pages.statistical');//thong ke 
     			break;
     		default:
-    			return view('layout.index');//trang chu
+    			return view('layout.main');//trang chu
     			break;
     	}
     }
-    public function test()
-    {
-    	return view('layout.main');
-    }
+
 }

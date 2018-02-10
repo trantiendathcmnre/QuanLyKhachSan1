@@ -32,7 +32,8 @@
         <!--Danh sach phong va hien trang-->
         <div class="row white" >
           <div class="col-md-12">
-            <div class="room rmaintenance">101</div>
+            @include('modal.mdhoadon')
+            <div class="room rmaintenance" data-toggle="modal" data-target="#modalhoadon">101</div>
             <div class="room rbooked rnotready">102</div>
             <div class="room rnotready">103</div>
             <div class="room rbooked rnotready">104</div>
@@ -68,7 +69,8 @@
             <div class="room rbooked rnotready">310</div>
           </div>
           <div class="col-md-12">
-            <div class="room">401</div>
+            @include('modal.mddatphong')
+            <div class="room" data-toggle="modal" data-target="#myModal">401</div>
             <div class="room">402</div>
             <div class="room">403</div>
             <div class="room">404</div>
@@ -95,7 +97,7 @@
         <div class="row white">
           <div class="col-md-8">
             <div id="thaotac">
-              <form class="form-inline">
+              <form class="form-inline ">
                 <select class="form-control sl" name="">
                   <option value="">Chọn thao tác</option>
                   <option value="">Đặt phòng</option>
@@ -107,7 +109,9 @@
             </div>
           </div>
           <div class="col-md-4 text-right align-items-center align-self-center mr-auto" style="font-size: 20px">
-            <a style="text-decoration: none" href="#" class="text-dark" title="Thêm khách hàng"><i class="fas fa-plus-circle"></i> Thêm khách hàng</a><!--Them khach hang-->
+            @include('modal.mdthemkh')
+            <a style="text-decoration: none" href="#" class="text-dark" title="Thêm khách hàng" data-toggle="modal" data-target="#mdthemkh">
+              <i class="fas fa-plus-circle"></i> Thêm khách hàng</a><!--Them khach hang-->
           </div>
         </div>
         <!--Danh sach phong va hien trang-->

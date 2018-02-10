@@ -34,11 +34,11 @@ class Createdbquanlykhachsan extends Migration
         Schema::create('mucluong', function ($table) {
             $table->increments('idML');
             $table->string('maML',10);
-            $table->float('luongcbML');
-            $table->float('phucapML')->default(300000);
-            $table->float('tamungML')->default(0);
-            $table->float('khautruML')->default(0);
-            $table->float('nghiphepML')->default(0);
+            $table->float('luongcbML',10,2);
+            $table->float('phucapML',10,2)->default(300000);
+            $table->float('tamungML',10,2)->default(0);
+            $table->float('khautruML',10,2)->default(0);
+            $table->integer('nghiphepML')->default(0);
         });
         //table dich vu
         Schema::create('dichvu', function ($table) {
@@ -47,18 +47,19 @@ class Createdbquanlykhachsan extends Migration
             $table->string('tenDV');
             $table->string('donviDV',20);
             $table->integer('soluongDV');
-            $table->float('dongiaDV');
+            $table->float('dongiaDV',10,2);
         });
         //table tai khoan
         Schema::create('taikhoan', function ($table) {
             $table->increments('idTK');
             $table->string('tenTK',200)->unique();
             $table->string('matkhauTK');
+            $table->dateTime('ngaytaoTK');
+            $table->string('anhdaidienTK');
         });
         //table khach hang
         Schema::create('khachhang', function ($table) {
             $table->increments('idKH');
-            $table->string('maKH',10);
             $table->string('hotenKH');
             $table->string('gioitinhKH',4);
             $table->dateTime('ngaysinhKH')->nullable();
@@ -77,21 +78,23 @@ class Createdbquanlykhachsan extends Migration
         Schema::create('giaphong', function ($table) {
             $table->increments('idGP');
             $table->string('maGP');
-            $table->float('giaGP');
+            $table->float('giaGP',10,2);
         });
         //table chi tiet hoa don
         Schema::create('chitiethoadon', function ($table) {
             $table->increments('idHD');
             $table->string('maHD');
             $table->dateTime('ngaylapHD');
-            $table->float('phuthuHD');
-            $table->float('tongtienHD');
+            $table->float('phuthuHD',10,2);
+            $table->float('tongtienHD',10,2);
         });
         //table nhan vien
         Schema::create('nhanvien', function ($table) {
             $table->increments('idNV');
             $table->string('maNV',10)->unique();
             $table->string('hotenNV');
+            $table->string('gioitinhNV',3);
+            $table->dateTime('ngaysinhNV');
             $table->string('sdtNV',11);
             $table->string('emailNV')->nullable();
             $table->dateTime('ngayvaoNV');
@@ -103,7 +106,7 @@ class Createdbquanlykhachsan extends Migration
             $table->string('maTP',10);
             $table->dateTime('ngaythueTP');
             $table->dateTime('ngaytraTP');
-            $table->float('tratruocTP');
+            $table->float('tratruocTP',10,2);
             $table->integer('tgluutruTP');
         });
         //table phong
@@ -135,8 +138,6 @@ class Createdbquanlykhachsan extends Migration
         Schema::table('nhanvien', function($table) {
             $table->integer('idBPNV')->unsigned();
             $table->foreign('idBPNV')->references('idBP')->on('bophan');
-            $table->integer('idMLNV')->unsigned();
-            $table->foreign('idMLNV')->references('idML')->on('mucluong');
         });
         //lien ket table thue phong
         Schema::table('thuephong', function($table) {
@@ -157,6 +158,12 @@ class Createdbquanlykhachsan extends Migration
             $table->integer('idLPPHG')->unsigned();
             $table->foreign('idLPPHG')->references('idLP')->on('loaiphong');
         });
+        //lien ket table muc luong
+        Schema::table('mucluong', function($table) {
+            $table->integer('idNVML')->unsigned();
+            $table->foreign('idNVML')->references('idNV')->on('nhanvien');
+        });
+        
     }
 
     /**
