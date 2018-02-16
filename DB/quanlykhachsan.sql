@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Feb 10, 2018 at 02:58 PM
+-- Generation Time: Feb 13, 2018 at 08:31 AM
 -- Server version: 5.7.19
 -- PHP Version: 5.6.31
 
@@ -302,6 +302,20 @@ INSERT INTO `nhanvien` (`idNV`, `maNV`, `hotenNV`, `gioitinhNV`, `ngaysinhNV`, `
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `password_resets`
+--
+
+DROP TABLE IF EXISTS `password_resets`;
+CREATE TABLE IF NOT EXISTS `password_resets` (
+  `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `token` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  KEY `password_resets_email_index` (`email`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `phong`
 --
 
@@ -333,31 +347,6 @@ INSERT INTO `phong` (`idPHG`, `maPHG`, `tenPHG`, `tiennghiPHG`, `ghichuPHG`, `so
 (3, 'P103', '101', 'Tivi, tủ lạnh', NULL, 4, 2, 'trống', 1, 2),
 (4, 'P104', '101', 'Tivi, tủ lạnh, máy lạnh, máy giặt sấy,bồn tắm, phòng xông hơi', NULL, 4, 2, 'trống', 1, 3),
 (5, 'P105', '101', 'Tivi, tủ lạnh, máy lạnh, máy giặt sấy,bồn tắm, phòng xông hơi', NULL, 4, 2, 'trống', 1, 3);
-
--- --------------------------------------------------------
-
---
--- Table structure for table `taikhoan`
---
-
-DROP TABLE IF EXISTS `taikhoan`;
-CREATE TABLE IF NOT EXISTS `taikhoan` (
-  `idTK` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
-  `tenTK` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `matkhauTK` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `ngaytaoTK` datetime NOT NULL,
-  `anhdaidienTK` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  PRIMARY KEY (`idTK`),
-  UNIQUE KEY `taikhoan_tentk_unique` (`tenTK`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Dumping data for table `taikhoan`
---
-
-INSERT INTO `taikhoan` (`idTK`, `tenTK`, `matkhauTK`, `ngaytaoTK`, `anhdaidienTK`) VALUES
-(1, 'admin', '$2y$10$YToRJG0tWEq2S4Z/8mI4geEqEuTWoTJgRdo29.my9BU.lB3SxSbM6', '2018-02-10 00:00:00', 'mặc định'),
-(2, 'nhanvien', '$2y$10$sFS2.OMD2SUyv4heN7iWKe/9gCDZ8gLSqY7cK8iiFOuU8ORmzdC3G', '2018-02-10 00:00:00', 'mặc định');
 
 -- --------------------------------------------------------
 
@@ -408,6 +397,35 @@ CREATE TABLE IF NOT EXISTS `thuephong` (
   KEY `thuephong_idphgtp_foreign` (`idPHGTP`),
   KEY `thuephong_idgptp_foreign` (`idGPTP`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+DROP TABLE IF EXISTS `users`;
+CREATE TABLE IF NOT EXISTS `users` (
+  `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `password` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `remember_token` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  `address` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `avatar` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `users_email_unique` (`email`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`, `address`, `avatar`) VALUES
+(1, 'admin', 'admin@gmail.com', '$2y$10$HUpQ4an1lNDm/baOdLR3YO0W/Oy7wq5415qr/dDg0FYyhDgxvqJ8C', 'YgBG2z98dq3URBl5KbCd6CrNSvJjgIfUeN1zaEzU0ugZKfXS0ZqIUnJxNdRn', NULL, NULL, '', 'images/av.jpg'),
+(2, 'nhan vien', 'nhanvien@gmai.com', '$2y$10$y7ehO./f5bB7eHCAU6KXmOJxT4ODsrUHfI5NPh409lE5KglmhjeqK', NULL, NULL, NULL, '', '');
 
 --
 -- Constraints for dumped tables
