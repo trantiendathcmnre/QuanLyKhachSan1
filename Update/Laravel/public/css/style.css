@@ -93,15 +93,16 @@
 	font-size: 25px;
 }
 #content ul{
-	padding-top: 5px;
+	margin-top: 15px;
 }
 #content ul li{
-	padding-right: 15px;
+	margin-left: 5px;
 	display: inline-block;
 }
 #content ul li a{
 	color: #012D45;
 	font-size: 25px;
+	margin-left: 10px;
 }
 #content ul li a:hover{
 	color: #fff;
@@ -110,14 +111,6 @@
 	padding-top: 15px;
 	font-size: 11px;
 
-}
-span.trong{
-	width: 14px;
-	height: 12px;
-}
-span.dadat{
-	width: 20px!important;
-	height: 20px!important;
 }
 #thumb .trong{
 	width: 14px;
@@ -143,7 +136,7 @@ span.dadat{
 	height: 59px;
 	text-align: center;
     line-height: 49px;
-    margin: 15px 5px;
+    margin: 9px 6px;
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
@@ -191,13 +184,32 @@ span.dadat{
 	text-align: center;
 
 }
-#phantrang ul li a{
-	padding-left: 10px;
+#phantrang .pagination li a{
+	padding-left: 9px;
+	padding-right: 9px;
 	padding-top: 3px;
+	padding-bottom: 3px;
 	font-size: 15px;
-	width: 30px;
-	height: 30px;
+	border-radius: 50% !important;
+	border: solid #CCCCCC 1px;
 }
+#phantrang .pagination li a:hover{
+	background: #CCCCCC;
+	color: #fff;
+	text-decoration: none;
+}
+#phantrang .pagination li span{
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-size: 15px;
+	border-radius: 50% !important;
+	border: solid #CCCCCC 1px;
+	background: #CCCCCC;
+}
+
+
 /*room*/
 #title{
 	
@@ -215,7 +227,7 @@ span.dadat{
 	text-align: center;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	margin-right: 20px;
+	margin-right: 16px;
 	display: inline-block;
 	font-size: 15px;
 }
