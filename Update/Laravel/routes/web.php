@@ -15,16 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Route::get('test/{ten}','MyController@dk');
-// //trang chu quan ly khach san 307
-// Route::get('QLKS/{id}','QLKS_Controllers@dieuhuong');
-// //dang nhap
-// Route::get('login','QLKS_Controllers@getLogin');
-
-// Route::post('QLKS/index', [ 'as' => 'postLogin', 'uses' => 'QLKS_Controllers@postLogin']);
-// //dang xuat
-// Route::get('logout', 'QLKS_Controllers@getLogout');
-
 //xuất excel
 Route::get('QLKS/statistical/doanhthu/export', 'QLKS_Controllers@contactExport')->name('contact.export');
 
@@ -45,10 +35,14 @@ Route::group(['prefix' => 'admin','middleware' => 'adminLogin'], function() {
     Route::group(['prefix' => 'floor'], function() {
         Route::get('room','FloorController@getRoom');
         Route::post('addfloor','FloorController@addFloor')->name('addfloor');
+        Route::get('updatefloor/{matang}','FloorController@updateFloor');
+        Route::get('deletefloor/{matang}','FloorController@deleteFloor');
+        Route::post('addfloorstyle', 'FloorController@addFloorStyle')->name('addfloorstyle');
     });
 
     Route::group(['prefix' => 'employee'], function() {
         Route::get('staff','EmployeeController@getStaff');
+        Route::post('addgroup', 'EmployeeController@addGroup')->name('addgroup');
     });
 
     Route::group(['prefix' => 'order'], function() {

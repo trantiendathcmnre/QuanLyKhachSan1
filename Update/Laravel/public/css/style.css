@@ -28,6 +28,12 @@
 #profile ul li a:hover{
 	color: #4DADF7;
 }
+
+#thumb{
+	padding-top: 15px;
+	font-size: 11px;
+
+}
 .inset {
   width: 36px;
   height: 36px;
@@ -80,33 +86,8 @@
 	background-color: #A0CBE2;
 	color: #000;
 }
-#content{
-	
-	background-color: #E2EBF0;
-	border: solid #CCCCCC 1px;
-	border-bottom: solid #999999 5px;
-	width: 100%;
-}
-#content h5{
-	padding-top: 10px;
-	color: #012D45;
-	font-size: 25px;
-}
-#content ul{
-	margin-top: 15px;
-}
-#content ul li{
-	margin-left: 5px;
-	display: inline-block;
-}
-#content ul li a{
-	color: #012D45;
-	font-size: 25px;
-	margin-left: 10px;
-}
-#content ul li a:hover{
-	color: #fff;
-}
+
+
 #thumb{
 	padding-top: 15px;
 	font-size: 11px;
@@ -183,30 +164,6 @@
 	margin-bottom: 20px;
 	text-align: center;
 
-}
-#phantrang .pagination li a{
-	padding-left: 9px;
-	padding-right: 9px;
-	padding-top: 3px;
-	padding-bottom: 3px;
-	font-size: 15px;
-	border-radius: 50% !important;
-	border: solid #CCCCCC 1px;
-}
-#phantrang .pagination li a:hover{
-	background: #CCCCCC;
-	color: #fff;
-	text-decoration: none;
-}
-#phantrang .pagination li span{
-	padding-left: 9px;
-	padding-right: 9px;
-	padding-top: 3px;
-	padding-bottom: 3px;
-	font-size: 15px;
-	border-radius: 50% !important;
-	border: solid #CCCCCC 1px;
-	background: #CCCCCC;
 }
 
 

@@ -1,16 +1,16 @@
 <div id="content">
   <div class="container-fluid">
         <div class="row borderbt">
-          <div class="col-md-auto mr-auto">
-            <h5 style="padding-top:22px">Danh sách phòng</h5>
+          <div class="col-md-7 mr-auto">
+            <h5 style="padding-top:20px">Danh sách phòng</h5>
           </div>
           <div class="col-md-auto align-self-center">
-            <div id="list" style="">
-              <ul class="list-unstyled">
-                <li><a class="btn btn-outline-dark"><i class="far fa-sticky-note" title="Nhật kí công việc"></i></a></li><!--hien thi nhat ki cong viec theo ngay, nhan phong, tra phong, da dat coc,...-->
-                <li><a class="btn btn-outline-dark"><i class="far fa-calendar-alt" title="Hiện trạng phòng"></i></a></li><!--hien thi thong ke hien trang phong-->
-                <li><a class="btn btn-outline-dark"><i class="far fa-chart-bar" title="Báo cáo"></i></a></li><!--yeu cau in bao cao-->
-                <li><a class="btn btn-outline-dark" onclick="ReLoad()"><i class="fas fa-sync-alt" title="Cập nhật mới"></i></a></li><!--cap nhat lai he thong-->
+            <div id="list" >
+              <ul class="list-unstyled list-inline">
+                <li class="list-inline-item"><a class="btn btn-outline-dark"><i class="far fa-sticky-note" title="Nhật kí công việc"></i></a></li><!--hien thi nhat ki cong viec theo ngay, nhan phong, tra phong, da dat coc,...-->
+                <li class="list-inline-item"><a class="btn btn-outline-dark"><i class="far fa-calendar-alt" title="Hiện trạng phòng"></i></a></li><!--hien thi thong ke hien trang phong-->
+                <li class="list-inline-item"><a class="btn btn-outline-dark"><i class="far fa-chart-bar" title="Báo cáo"></i></a></li><!--yeu cau in bao cao-->
+                <li class="list-inline-item"><a class="btn btn-outline-dark" onclick="ReLoad()"><i class="fas fa-sync-alt" title="Cập nhật mới"></i></a></li><!--cap nhat lai he thong-->
               </ul>
             </div>
           </div>
@@ -19,8 +19,8 @@
         <div class="row white" >
           <div class="col-md-auto">
             <div id="thumb">
-              <ul class="list-unstyled">
-                <li>
+              <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
                   <!--Thong ke so luong phong con trong-->
                   <span class="trong">&nbsp;
                   @if(isset($trong))
@@ -30,7 +30,7 @@
                   </span>&nbsp;
                   <label>Còn trống</label>
                 </li>
-                <li>
+                <li class="list-inline-item">
                   <span class="dadat">&nbsp;
                   @if(isset($dadat))
                     {{ $dadat }}
@@ -39,7 +39,7 @@
                   </span>&nbsp;
                   <label>Đã đặt</label>
                 </li>
-                <li>
+                <li class="list-inline-item">
                   <span class="dango">&nbsp;
                   @if(isset($dango))
                     {{ $dango }}
@@ -47,8 +47,8 @@
                   </span>&nbsp;
                   <label>Đang ở</label>
                 </li>
-                <li><img src="{{asset('images/icon-Stop.png')}}" alt="">&nbsp;<label>Cần sửa</label></li>
-                <li><img src="{{asset('images/icon-Alert.png')}}" alt="">&nbsp;<label>Chưa dọn</label></li>
+                <li class="list-inline-item"><img src="{{asset('images/icon-Stop.png')}}" alt="">&nbsp;<label>Cần sửa</label></li>
+                <li class="list-inline-item"><img src="{{asset('images/icon-Alert.png')}}" alt="">&nbsp;<label>Chưa dọn</label></li>
               </ul>
             </div>
           </div>

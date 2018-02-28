@@ -75,9 +75,6 @@
           <div class="col-md-auto mr-auto">
             <h5>Phân loại phòng</h5>
           </div>
-          <div class="col-md-auto">
-            {!! $mess or '' !!}
-          </div>
         </div>
         <!--Phan loai tang lau-->
         <div id="title">
@@ -87,7 +84,12 @@
               Thông tin tầng:
             </div>
             <div class="col-5 col-md-auto ml-auto">
-              <span class="error text-center alert alert-danger d-none"> </span>&nbsp;
+              @if(session('thongbao'))
+              <script>
+                alert('{{ session('thongbao') }}');
+
+              </script>
+              @endif
               <a class="btn btn-primary btn-sm" href="#" data-toggle="modal" data-target="#themtang" > <i class="fas fa-plus"></i> Thêm</a>
             </div>
           </div>
@@ -97,15 +99,17 @@
           <div class="col-md-auto">
             @foreach($tang as $T)
             <div class="floor">
+              <?php $matang = $T->id ?>
               <strong>{{ $T->tenT }}</strong>
               <div id="cn-floor">
-                <a href="#" class="text-dark"> Xóa </a>
+                <a href="admin/floor/deletefloor/{{ $matang }}" class="text-dark"> Xóa </a>
                 <a>|</a>
-                <a href="#" class="text-dark"> Sửa </a>
+                <a href="admin/floor/updatefloor/{{ $matang }}" id="suatang" class="text-dark" data-toggle="modal" data-target="#suatang"> Sửa </a>
               </div>
             </div>
             @endforeach
           </div>
+          @include('admin/modal/suatang')
         </div>
         <!--/Danh sach tang lau-->
         <!--Danh sach loai phong-->
@@ -202,7 +206,7 @@
         </div>
         <!--Phan trang danh sach khach hang-->
         <div class="row white">
-          <div class="col-md-auto ml-auto" id="phantrang">
+          <div class="pagination" >
             {!! $phanphong->links() !!}
           </div>
         </div>
@@ -884,6 +888,10 @@
 
 <!--Them tang-->
 <script>
-  
+  $(document).ready(function(){
+    $("#suatang").click(function(){
+      alert('gui du lieu');
+    });
+  });
 </script>
 @endsection
