@@ -2,9 +2,7 @@
 
 @section('title','Trang chủ')
 
-@section('mainmenu')
-	@include('admin.layout.mainmenu')
-@endsection
+
 
 @section('submenu')
 @endsection

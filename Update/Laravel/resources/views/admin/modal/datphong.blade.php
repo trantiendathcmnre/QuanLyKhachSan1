@@ -1,86 +1,92 @@
-<!--Modal dat phong-->
-<div id="myModal" class="modal" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content small">
-      <form>
-        <div class="modal-header ">
-          <h5 class="modal-title ">Đặt phòng</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+
+  <!-- The Modal-->
+  <div class="modal fade bd-example-modal-lg" id="myModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <form class="needs-validation" novalidate>
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Đặt phòng</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>      
+        <!-- Modal body -->
+        <div class="modal-body" style="font-size: 13px">
+            <div class="row form-group">
+              <label for="khachhang" class="col-md-2" style="padding-top: 9px">Khách hàng:</label>
+              <div class="col-md-4">
+                <input type="text" class="form-control" name="khachhang" placeholder="Tên khách hàng" required>
+                <div class="invalid-feedback">
+                  Vui lòng nhập tên khách hàng!
+                </div>
+              </div>
+              <label for="cmnd" class="col-md-2" style="padding-top: 9px">CMND:</label>
+              <div class="col-md-4">
+                <input type="text" class="form-control" name="cmnd" placeholder="CMND" required>
+                <div class="invalid-feedback">
+                  Vui lòng nhập CMND!
+                </div>
+              </div>
+
+            </div>
+        
+            <div class="row form-group">
+              <label class="col-md-2" style="padding-top: 9px">Phòng:</label>
+              <div class="col-md-4">
+                <input type="text" class="form-control" name="phong" readonly value="">     
+              </div>
+              
+              <label for="gia" class="col-md-2" style="padding-top: 9px">Giá</label>
+                <div class="col-md-4">
+                  <input class="form-control" type="text" name="gia" value="" readonly>
+                </div>
+            </div>
+            <div class="row form-group">
+              <label for="khunggio" class="col-md-2" style="padding-top: 9px">Khung giờ</label>
+              <div class="col-md-4">
+                <select id="khunggio" name="khunggio" class="form-control ">
+                  <option value="0">-----------------------</option>}
+                  
+                  <option value=""></option>
+                  
+                </select>
+              </div>
+              <label for="sdt" class="col-md-2" style="padding-top: 9px">Số điện thoại</label>
+              <div class="col-md-4">
+                <input class="form-control" type="text" name="sdt" placeholder="Số điện thoại" required>
+                <div class="invalid-feedback">
+                  Vui lòng nhập số điện thoại!
+                </div>
+              </div>
+            </div>
+
+            <div class="row form-group">
+              <label for="ngayden" class="col-md-2" style="padding-top: 9px">Ngày đến</label>
+              <div class="col-md-4">
+                <input class="form-control" type="datetime-local" name="ngayden" required>
+                <div class="invalid-feedback">
+                  Vui lòng chọn ngày đến!
+                </div>
+              </div>
+              <label for="ngaydi" class="col-md-2" style="padding-top: 9px">Ngày đi</label>
+              <div class="col-md-4">
+                <input class="form-control" type="datetime-local" name="ngaydi" required>
+                <div class="invalid-feedback">
+                  Vui lòng chọn ngày đi!
+                </div>
+              </div>
+            </div>
         </div>
-        <div class="modal-body">
-          <div class="container-fluid">
-            <table width="100%" align="center" cellpadding="4" cellspacing="0" border="0">
-              <tbody>
-                <tr>
-                  <td width="30%">Khách hàng</td>
-                  <td width="70%">
-                    <input type="text" class="w-50">
-                    <input type="text" class="w-25" placeholder="CMND/ID">
-                  </td>
-                </tr>
-                <tr>
-                  <td width="30%">Phòng</td>
-                  <td width="70%">401
-                  <label class="text-right">600000</label>
-                  </td>
-                </tr>
-                <tr>
-                  <td> Lựa chọn</td>
-                  <td>
-                    <input type="radio" name="rs_status" checked="checked"> Nhận phòng
-                    <input type="radio" name="rs_status"> Đặt phòng
-                  </td>
-                </tr>
-                <tr>
-                  <td>Ngày vào</td>
-                  <td>
-                    <input type="date"> lúc 
-                    <select name="date_in_hour">
-                      <option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12" selected="selected">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option>
-                    </select> h 
-                    <select id="rb_date_in_minute" name="date_in_minute">
-                      <option value="0" selected="selected">0</option><option value="5">5</option><option value="10">10</option><option value="15">15</option><option value="20">20</option><option value="25">25</option><option value="30">30</option><option value="35">35</option><option value="40">40</option><option value="45">45</option><option value="50">50</option><option value="55">55</option>
-                    </select>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Ngày ra</td>
-                  <td>
-                    <input type="date"> lúc 
-                    <select name="date_out_hour"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12" selected="selected">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option>
-                    </select> h
-                  </td>
-                </tr>
-                <tr>
-                  <td>Trả trước</td>
-                  <td>
-                    <input size="15">
-                    <input type="checkbox"> Qua thẻ
-                  </td>
-                </tr>
-                <tr>
-                  <td>Khuyến mãi</td>
-                  <td>
-                    <input id="rb_discount" name="discount" size="15"> (số tiền hoặc %)
-                    <input id="rb_other" name="other" size="15" type="hidden">
-                  </td>
-                </tr>
-                <tr>
-                  <td valign="middle">Ghi chú</td>
-                  <td><textarea id="rb_note" rows="2" name="note" class="w100" style="margin-top: 5px;"></textarea></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
+        
+        <!-- Modal footer -->
         <div class="modal-footer">
-          <button type="button" class="btn btn-outline-secondary btn-sm" data-dismiss="modal">Đóng</button>
-          <button type="button" class="btn btn-outline-secondary btn-sm">Áp dụng</button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
+          <input class="btn btn-primary" type="submit" value="Đặt phòng"/>
         </div>
-      </form>
+      </form>  
+      </div>
     </div>
   </div>
-</div>
-<!--end modal dat phong-->
+
+
+

@@ -1,9 +1,8 @@
-<div class="container">
-  <!-- The Modal -->
-  <div class="modal fade" id="themtang">
+<!-- The Modal -->
+<div class="modal fade" id="add-floor">
     <div class="modal-dialog">
       <div class="modal-content">
-        <form class="needs-validation" action="admin/floor/addfloor" method="POST" novalidate >
+        <form class="needs-validation" id="frm-themtang" action="{{ URL::to('admin/floor/addfloor') }}" method="post" novalidate >
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
         <!-- Modal Header -->
         <div class="modal-header">
@@ -12,7 +11,7 @@
         </div>      
         <!-- Modal body -->
         <div class="modal-body">
-            <div class="form-row">
+            <div class="form-row form-group">
               <label for="ten" class="col-md-2" style="padding-top: 9px">Tên tầng</label>
               <div class="col-md-10">
                 <input type="text" class="form-control" name="tentang" placeholder="Tên tầng" required>
@@ -25,12 +24,11 @@
         
         <!-- Modal footer -->
         <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
-          <button class="btn btn-primary" type="submit" id="themtang">Thêm</button>
+          <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Đóng</button>
+          <input class="btn btn-success btn-sm" type="submit" value="Lưu" />
         </div>
       </form>  
       </div>
     </div>
-  </div>
 </div>
 

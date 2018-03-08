@@ -1,9 +1,9 @@
-<div class="container">
-  <!-- The Modal -->
-  <div class="modal fade" id="themloaiphong">
+
+<!-- The Modal -->
+  <div class="modal fade" id="add-floorstyle">
     <div class="modal-dialog">
       <div class="modal-content">
-        <form class="needs-validation" novalidate action="admin/floor/addfloorstyle" method="POST">
+        <form class="needs-validation" id="frm-themloaiphong" novalidate action="admin/floor/addfloorstyle" method="POST">
         {{ csrf_field() }}
         <!-- Modal Header -->
         <div class="modal-header">
@@ -26,11 +26,10 @@
         <!-- Modal footer -->
         <div class="modal-footer">
           <button type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
-          <button class="btn btn-primary" type="submit">Thêm</button>
+          <input class="btn btn-success" type="submit" value="Thêm" />
         </div>
       </form>  
       </div>
     </div>
   </div>
-</div>
 

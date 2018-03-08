@@ -1,23 +1,18 @@
-<div id="content">
+@include('admin.modal.themkhachhang')
+@include('admin.modal.hoadon')
+@include('admin.modal.datphong')
+@include('admin.modal.xoakh')
+@include('admin.modal.thanhcong')
+@include('admin.modal.thatbai')
+<div style="padding-top: 70px">
   <div class="container-fluid">
-        <div class="row borderbt">
-          <div class="col-md-7 mr-auto">
-            <h5 style="padding-top:20px">Danh sách phòng</h5>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-header">
+            <h5 >Danh sách phòng</h5>
           </div>
-          <div class="col-md-auto align-self-center">
-            <div id="list" >
-              <ul class="list-unstyled list-inline">
-                <li class="list-inline-item"><a class="btn btn-outline-dark"><i class="far fa-sticky-note" title="Nhật kí công việc"></i></a></li><!--hien thi nhat ki cong viec theo ngay, nhan phong, tra phong, da dat coc,...-->
-                <li class="list-inline-item"><a class="btn btn-outline-dark"><i class="far fa-calendar-alt" title="Hiện trạng phòng"></i></a></li><!--hien thi thong ke hien trang phong-->
-                <li class="list-inline-item"><a class="btn btn-outline-dark"><i class="far fa-chart-bar" title="Báo cáo"></i></a></li><!--yeu cau in bao cao-->
-                <li class="list-inline-item"><a class="btn btn-outline-dark" onclick="ReLoad()"><i class="fas fa-sync-alt" title="Cập nhật mới"></i></a></li><!--cap nhat lai he thong-->
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!--Tong so phong , chu thich ki hieu-->
-        <div class="row white" >
-          <div class="col-md-auto">
+          <div class="card-body">
             <div id="thumb">
               <ul class="list-unstyled list-inline">
                 <li class="list-inline-item">
@@ -47,133 +42,79 @@
                   </span>&nbsp;
                   <label>Đang ở</label>
                 </li>
-                <li class="list-inline-item"><img src="{{asset('images/icon-Stop.png')}}" alt="">&nbsp;<label>Cần sửa</label></li>
-                <li class="list-inline-item"><img src="{{asset('images/icon-Alert.png')}}" alt="">&nbsp;<label>Chưa dọn</label></li>
+                
               </ul>
             </div>
-          </div>
-        </div>
-        <!--Danh sach phong va hien trang-->
-        <div class="row white" >
-          <div class="col-md-12" style="padding-bottom: 15px">
-            @foreach($phong as $PHG)
-              @include('admin.modal.hoadon')
+            
+              @foreach($phong as $PHG)
+              
               <!--Hiển thị phòng trống-->
-              @if($PHG->trangthaiPHG == 'trống')
-                <div class="room btn-outline-dark" data-toggle="modal" data-target="#myModal">  {{ $PHG->maPHG }}  </div>
+              @if($PHG->trangthaiPHG == 0)
+                <a style="text-decoration: none" class="room btn-outline-dark" href="admin/home/book/{{ $PHG->id }}">  {{ $PHG->maPHG }}  </a>
               @endif
 
               <!--Hiển thị phòng đã đang ở-->
-              @if($PHG->trangthaiPHG == 'đang ở')
-                <div class="room rmaintenance btn-outline-dark" data-toggle="modal" data-target="#modalhoadon">  {{ $PHG->maPHG }}  </div>
+              @if($PHG->trangthaiPHG == 2)
+
+                <a class="room rmaintenance btn-outline-dark" data-toggle="modal" data-target="#modalhoadon">  {{ $PHG->maPHG }}  </a>
               @endif
 
               <!--Hiển thị phòng đặ đặt-->
-              @if($PHG->trangthaiPHG == 'đã đặt')
-                <div class="room rbooked btn-outline-dark" data-toggle="modal" data-target="#myModal">  {{ $PHG->maPHG }}  </div>
+              @if($PHG->trangthaiPHG == 1)
+                <a class="room rbooked btn-outline-dark" data-toggle="modal" data-target="#myModal">  {{ $PHG->maPHG }}  </a>
               @endif
 
-              <!--Hiển thị phòng trống chưa dọn-->
-              @if($PHG->trangthaiPHG == 'trống' && $PHG->ghichuPHG == 'chưa dọn')
-                <div class="room rnotready btn-outline-dark" data-toggle="modal" data-target="#myModal">  {{ $PHG->maPHG }}  </div>
-              @endif
               
-              <!--Hiển thị phòng đã đặt chưa dọn-->
-              @if($PHG->trangthaiPHG == 'đã đặt' && $PHG->ghichuPHG == 'chưa dọn')
-                <div class="room rbooked rnotready btn-outline-dark" data-toggle="modal" data-target="#myModal">  {{ $PHG->maPHG }}  </div>
-              @endif
-              
-              <!--Hiển thị phòng đang ở chưa dọn-->
-              @if($PHG->trangthaiPHG == 'đang ở' && $PHG->ghichuPHG == 'chưa dọn')
-                <div class="room rmaintenance rnotready btn-outline-dark" data-toggle="modal" data-target="#modalhoadon">  {{ $PHG->maPHG }}  </div>
-              @endif
-
-              <!--Hiển thị phòng trống cần sửa-->
-              @if($PHG->trangthaiPHG == 'trống' && $PHG->ghichuPHG == 'cần sửa')
-                <div class="room rprepare btn-outline-dark" data-toggle="modal" data-target="#myModal">  {{ $PHG->maPHG }}  </div>
-              @endif
-
-              <!--Hiển thị phòng đang ở cần sửa-->
-              @if($PHG->trangthaiPHG == 'đang ở' && $PHG->ghichuPHG == 'cần sửa')
-                <div class="room rmaintenance rprepare btn-outline-dark" data-toggle="modal" data-target="#modalhoadon">  {{ $PHG->maPHG }}  </div>
-              @endif
-    
-              <!--Hiển thị phòng đã đặt cần sửa-->
-              @if($PHG->trangthaiPHG == 'đã đặt' && $PHG->ghichuPHG == 'cần sửa')
-                <div class="room rbooked rprepare btn-outline-dark" data-toggle="modal" data-target="#myModal">  {{ $PHG->maPHG }}  </div>
-              @endif
-
+            
+            
             @endforeach
-            @include('admin.modal.datphong')
           </div>
+
         </div>
-        <div class="row borderbt" >
-          <div class="col-md-auto mr-auto">
-            <h5>Khách hàng đang ở và đã đặt</h5>
+      </div>
+    </div>
+    
+    <div class="row" >
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-header">
+            <h5>Khách hàng </h5>
           </div>
-          <div class="col-md-auto align-self-center">
+          <div class="card-body" id="tbkhachhang">
             <form class="form-inline">
+
               <input type="hidden" name="_token" value="{{ csrf_token() }}">
-              <input name="tukhoa" class="form-control-sm w-75 mr-2" type="text" placeholder="Tìm kiếm" aria-label="Search">
-              <a class="btn btn-success btn-sm text-light"><i class="fas fa-search" aria-hidden="true"></i></a>
+              <input id="tukhoa" class="form-control-sm mr-2" type="text" placeholder="Tìm kiếm" aria-label="Search">
+              <input type="submit" class="btn btn-success btn-sm text-light" value="Tìm" id="search"/>
+              &nbsp;
+
+              <a class="btn btn-sm btn-primary text-light ml-auto mb-1" title="Thêm khách hàng" href="admin/home/addcustomer">
+              <i class="fas fa-plus"></i> Thêm
+            </a><!--Them khach hang-->
+
             </form>
-          </div>
-        </div>
-        <!--Tong so phong , chu thich ki hieu-->
-        <div class="row white">
-          <div class="col-md-8">
-            <div id="thaotac">
-              <form class="form-inline ">
-                <select class="form-control sl" name="">
-                  <option value="">Chọn thao tác</option>
-                  <option value="">Đặt phòng</option>
-                  <option value="">Nhận phòng</option>
-                  <option value="">Thêm vào phòng</option>
-                  <option value="">Cảnh báo khách hàng</option>
-                </select>
-              </form>
-            </div>
-          </div>
-          <div class="col-md-4 text-right align-items-center align-self-center mr-auto" style="font-size: 20px">
-            @include('admin.modal.themkhachhang')
-            <a href="#" class="btn btn-sm btn-primary" title="Thêm khách hàng" data-toggle="modal" data-target="#themkh">
-              <i class="fas fa-plus"></i> Thêm</a><!--Them khach hang-->
-          </div>
-        </div>
-        <!--Danh sach phong va hien trang-->
-        <div class="row white" >
-          <div class="col-md-12">
-            <div class="table-responsive" id="tbkhachhang">
-              <table class="table table-striped table-hover table-sm">
-                <thead>
+            <div class="table-responsive">
+              <table class="table table-hover table-bordered text-center table-sm">
+                <thead >
                   <tr>
-                    <th>
-                      <div class="form-check">
-                        <label class="form-check-label">
-                          <input id="chonhet" type="checkbox" class="form-check-input" value="">Họ tên
-                        </label>
-                      </div>
-                    </th>
+                    <th>#</th>
+                    <th>Họ tên</th>
                     <th>Giới tính</th>
                     <th>Ngày sinh</th>
                     <th>CMND/ID</th>
                     <th>Địa chỉ</th>
                     <th>Điện thoại</th>
                     <th>Lượt thuê</th>
-                    <th>Công cụ</th>
+                    <th></th>
                   </tr>
                 </thead>
-                <tbody>
+                <tbody id="noidung">
+                  <?php $i=1 ?>
                   <!--Lấy thông tin khách hàng -->
                   @foreach($khachhang as $KH)
-                  <tr>
-                    <td>
-                      <div class="form-check">
-                        <label class="form-check-label">
-                          <input name="chon" type="checkbox" class="form-check-input" value="">{{ $KH->hotenKH }}
-                        </label>
-                      </div>
-                    </td>
+                  <tr id="kh{{ $KH->id }}">
+                    <td><?php echo $i++ ?></td>
+                    <td>{{ $KH->hotenKH }}</td>
                     <td>{{ $KH->gioitinhKH }}</td>
                     <td>{{ $KH->ngaysinhKH }}</td>
                     <td>{{ $KH->cmndKH }}</td>
@@ -181,57 +122,93 @@
                     <td>{{ $KH->sdtKH }}</td>
                     <td>{{ $KH->luotthueKH }}</td>
                     <td>
-                      <a class="btn btn-warning btn-sm" href="#"><i class="fas fa-pencil-alt"></i> Sửa</a>&nbsp;
-                      <a class="btn btn-danger btn-sm" href="#"><i class="fas fa-trash-alt"></i> Xóa</a>
+                      <a class="btn btn-warning btn-sm text-light " href="admin/home/editcustomer/{{ $KH->id }}"><i class="fas fa-pencil-alt"></i></a>&nbsp; 
+                      <a class="btn btn-danger btn-sm text-light " data-id="{{ $KH->id }}" id="deletecustomer"><i class="fas fa-trash-alt"></i></a>
+
                     </td>
                   </tr>
                   @endforeach
-        
+
                 </tbody>
               </table>
             </div>
+            {{ $khachhang -> links("pagination::bootstrap-4") }}
+            
+            
+   
+            
           </div>
         </div>
-        <!--Phan trang danh sach khach hang-->
-        <div class="row white">
-          <div class="col-md-auto ml-auto" id="phantrang">
-            {{ $khachhang -> links() }}
-          </div>
-        </div>
+      </div>
+    </div>
+       
   </div>
+
 </div>
 @section('script')
-<!-- <script>
-  $("#themkh").click(function(){
-    $.ajax({
-      type: 'post';
-      url: 'QLKS/index/themkhachhang',
-      data:{
-        '_token': $('input[name=_token]').val(),
-        'hoten': $('input[name=hoten]').val(),
-        'gioitinh': $('input[name=gioitinh]').val(),
-        'cmnd': $('input[name=cmnd]').val(),
-        'sdt': $('input[name=sdt]').val()
-      },
-      success: function(data){
-        if((data.errors)){
-          $('.error').removeClass('hidden');
-          $('.error').text(data.errors.hoten);
-        }
-        else{
-          $('.error').remove();
-          $('#table').append("")
-        }
-      }
-
-    })
-  });
-
-</script> -->
-
-<script>
+<script >
   $(document).ready(function(){
+    // Them khachhang-------------------------------------------------------
+  // $('#frm-themkhachhang').on('submit',function(e){
+  //     e.preventDefault();
+  //     var data = $(this).serialize();
+  //     var url = $(this).attr('action');
+  //     var pos = $(this).attr('method');
+  //     $.ajax({
+  //       type : pos,
+  //       url : url,
+  //       data : data,
+  //       success:function(data)
+  //       {
+  //         if(data.msg == 'OK')
+  //         {
+  //           $('#add-customer').modal('hide');
+  //           $('#success').modal('show');
+  //         }
+  //         else
+  //         {
+  //           $('#add-customer').modal('hide');
+  //           $('#fail').modal('show');
+  //         }
+  //       }
+  //     })  
+  //   })
 
-  });
+      
+  })
+
+
+  // $(document).ready(function(){
+  //   $("#search").click(function(){
+  //     var tukhoa = $("#tukhoa").val();
+  //     $.get(
+  //       "/admin/home/search"+'/'+tukhoa,function(data){
+  //         console.log(data);
+  //       });
+  //   });
+  // });
+
+  //ajax phan trang dich vu------------------------------------------------------------------
+
+  // $(document).on('click', '.pagination a',function(e){
+  //     e.preventDefault();
+  //     var page = $(this).attr('href').split('page=')[1];
+  //     readPage(page)
+
+  // });
+
+  // function readPage(page)
+  // {
+  //   $.ajax({
+  //     url: "admin/home/pagination?page="+page
+  //   }).done(function(data){
+  //     $('#tbkhachhang').html(data) 
+  //     location.hash=page;
+  //   })
+  // }
+
+
+  
 </script>
+
 @endsection

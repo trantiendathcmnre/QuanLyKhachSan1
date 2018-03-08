@@ -1,12 +1,8 @@
-.white{
-	background: #fff; 
-}
+
 .table-hover tbody tr:hover > td {
   background-color: #DAE9FE;
 }
-#header{
-	background-image: url('../images/bgn.jpg');
-}
+
 #logo{
 	display: inline-block;
 	padding-top: 5px;
@@ -80,10 +76,10 @@
 	font-size: 13px;
 	font-family: Roboto;
 	color: #fff;
-	background: #DDE5EA;
+	background: #000;
 }
 #submenu ul li a.nav-link.active{
-	background-color: #A0CBE2;
+	background-color: #FFF;
 	color: #000;
 }
 
@@ -165,7 +161,6 @@
 	text-align: center;
 
 }
-
 
 /*room*/
 #title{

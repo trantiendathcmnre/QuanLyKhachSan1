@@ -14,4 +14,9 @@ class ThuePhong extends Model
     {
     	return $this->hasOne('App\ChiTietHoaDon', 'idTPHD' , 'id');
     }
+
+    public function khach()
+    {
+    	return $this->hasOne('App\KhachHang', 'idKHTP', 'id');
+    }
 }
